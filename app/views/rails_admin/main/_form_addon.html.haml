@@ -2,16 +2,16 @@
   %div.input-prepend.input-append
     %span.add-on
       = field.prepend_text
-    = form.send field.view_helper, field.method_name, field._html_attributes
+    = form.send field.view_helper, field.method_name, field.html_attributes
     %span.add-on
       = field.append_text
 - elsif field.prepend_text
   %div.input-prepend
     %span.add-on
       = field.prepend_text
-    = form.send field.view_helper, field.method_name, field._html_attributes
+    = form.send field.view_helper, field.method_name, field.html_attributes
 - elsif field.append_text
   %div.input-append
     %span.add-on
       = field.append_text
-    = form.send field.view_helper, field.method_name, field._html_attributes
+    = form.send field.view_helper, field.method_name, field.html_attributes
